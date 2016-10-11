@@ -11,10 +11,11 @@ require.config({
             exports: '$'
         }
     },
-    urlArgs: "v=1.0"
+    urlArgs: new Date().getDate()
 });
 /*依赖print模块*/
 require(['./print'], function (print) {
     'use strict';
     print.printColor();
 });
+//sbumit1
